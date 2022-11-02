@@ -6,4 +6,4 @@ montar la base de datos, con el archivo centromedico.sql y montar el modelo vist
 
 
 
-https://raw.githubusercontent.com/el-Mamadisimo/centroMedico_SENA/main/ruta/al/assetrepositorio1.jpg
+https://raw.githubusercontent.com/el-Mamadisimo/centroMedico_SENA/main/ruta/al/asset/repositorio1.jpg
