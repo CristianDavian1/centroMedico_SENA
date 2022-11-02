@@ -3,3 +3,7 @@
 
 
 montar la base de datos, con el archivo centromedico.sql y montar el modelo vista, controlador en un host.
+
+
+
+https://raw.githubusercontent.com/el-Mamadisimo/centroMedico_SENA/main/asset/repositorio1.jpg
