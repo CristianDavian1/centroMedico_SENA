@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/citas.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./iconos/ico.png" type="image/x-icon">
+    <title>Reserva De Citas</title>
+
+</head>
+<section>
+    <video autoplay="autoplay" loop="auto" id="video_background" preload="auto" onloadedmetadata="this.muted=true">
+        <source src="./videos/backGroundInicioSesion.mp4" type="video/mp4">
+    </video>
+</section>
+
+<body class="bg-secondary">
+    <section class="d-flex justify-content-center">
+        <div class="card col-sm-6 p-3" id="formulario">
+            <div clas="mb-3">
+                <img src="./iconos/iconoCentroDeSalud.png" alt="icono" id="iconoCitas">
+                <h1>Reserva De Citas</h1>
+            </div>
+            <div class="mb-2"></div>
+            <div class="form-group" class="inset">
+                <label for="Tipo De Documento">Tipo De Documento</label>
+                <select id="SELECCIONA" class="form-control">
+                    <option>Selecciona</option>
+                    <option> CEDULA DE CIUDADANIA</option>
+                    <option>T.IDENTIDAD</option>
+                    <option>REGISTRO CIVIL</option>
+                    <option>PASAPORTE</option>
+                </select>
+                <div class="mb-2">
+                    <label for="Numero De Documento">Numero De Documento</label>
+                    <input type="text" class="form-control" name="Numero De Documento" id="numero de Documento"
+                        placeholder="Ej:123654897">
+                </div>
+
+            </div>
+            <div class="mb-2">
+                <form action="">
+                    <div class="mb-2">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ej:Patricio">
+                    </div>
+                    <div class="mb-2">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" name="apellido" id="Correo" placeholder="Ej:Ortiz">
+                    </div>
+                    <div class="mb-2">
+                        <label for="direccion">Direccion</label>
+                        <input type="text" class="form-control" name="Direccion" id="Direccion"
+                            placeholder="Ej:Cr 7 #12 a 30sur">
+                    </div>
+                    <div class="mb-2">
+                        <label for="Telefono">Telefono</label>
+                        <input type="text" class="form-control" name="Telefono" id="Telefono" placeholder="Ej:666666">
+                    </div>
+                    <div>
+                        <label for="start">Fecha de la cita</label>
+
+                        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2010-01-01"
+                            max="2025-12-31">
+
+                    </div>
+                    <div class="mb-2"></div>
+                    <div class="form-group">
+                        <label for="ESPECIALIDAD">ESPECIALIDAD</label>
+                        <select id="SELECCIONA" class="form-control">
+                            <option>Selecciona especialidad</option>
+                            <option>MEDICINA GENERAL</option>
+                            <option>ODONTOLOGIA</option>
+                            <option>VACUNACION-COVID19</option>
+                            <option>CITOLOGIAS</option>
+                        </select>
+                    </div>
+
+            </div>
+            <div class="mb-2">
+                <button class="btn btn-primary">Enviar</button>
+            </div>
+
+            </form>
+        </div>
+        </div>
+
+
+    </section>
+    <script src="./js/jquery-3.6.0.min.map"></script>
+
+</body>
+
+</html>
